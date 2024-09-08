@@ -32,9 +32,9 @@ export default [
       'vue/multi-word-component-names': 'off', // 关闭多单词组件名检查
       'vue/no-v-html': 'warn', // 避免使用v-html以防范XSS攻击
       // 强制组件文件中标签的顺序
-      'vue/component-tags-order': ['error', {
-        'order': ['template', 'script', 'style']
-      }],
+      // 'vue/component-tags-order': ['error', {
+      //   'order': ['template', 'script', 'style']
+      // }],
       'vue/no-unused-vars': 'error' // 禁止未使用的变量
     }
   },
