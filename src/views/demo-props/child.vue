@@ -1,6 +1,6 @@
 <template>
   <div class="demo-props-child">
-    <h1>This is an demo-props-child page</h1>
+    <h2>This is an demo-props-child page</h2>
   </div>
 </template>
 
@@ -17,3 +17,10 @@
   })
   console.log('props', props)
 </script>
+
+<style scoped>
+.demo-props-child {
+  background-color: aquamarine;
+  padding: 20px;
+}
+</style>

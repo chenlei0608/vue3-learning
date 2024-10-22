@@ -1,6 +1,6 @@
 <template>
-  <div class="demo-props-child">
-    <h1>This is an demo-props-child page</h1>
+  <div class="demo-emit-child">
+    <h2>This is an demo-emit-child page</h2>
     <button @click="clickMe">点我</button>
   </div>
 </template>
@@ -13,7 +13,7 @@ const clickMe = () => {
 </script>
 
 <style scoped>
-.demo-props-child {
+.demo-emit-child {
   background-color: aquamarine;
   padding: 20px;
 }
